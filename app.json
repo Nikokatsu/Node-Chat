@@ -1,0 +1,8 @@
+{
+  "name": "Node.js Chatroom",
+  "description": "Stuff",
+  "repository": "https://github.com/Nikokatsu/Node-Chat",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
