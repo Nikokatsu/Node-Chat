@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "private": true,
   "scripts": {
-    "start": "node app.json"
+    "start": "node server.json"
   },
   "dependencies": {
     "debug": "~2.1.1",
