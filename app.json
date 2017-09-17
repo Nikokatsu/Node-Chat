@@ -1,0 +1,11 @@
+{
+  "name": "Node-Chat",
+  "description": "Just a chat created with node.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp run",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
+  "repository": "https://github.com/Nikokatsu/Node-Chat"
+}
