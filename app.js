@@ -171,7 +171,7 @@ function updateUser(id, name) {
 if(clients[id].ip === 'IP' || name ===  '0_Dipesh_0') {
   utils.sendToAll(clients, {
     message: name + ' logged in as an Administrator',
-    user: '0_Dipesh_0',
+    user: 'System',
     type: 'role',
     extra: name,
     role: 3
