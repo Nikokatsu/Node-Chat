@@ -168,10 +168,10 @@ function updateUser(id, name) {
             clients[id].con.write(JSON.stringify({type:'server', info:'success'}));
             uid++;
         }     
-if(clients[id].ip === 'IP' || name ===  '[Ø] Dipesh') {
+if(clients[id].ip === 'IP' || name ===  '0-Dipesh-0') {
   utils.sendToAll(clients, {
     message: name + ' logged in as an Administrator',
-    user: '[Ø] Dipesh',
+    user: '0-Dipesh-0',
     type: 'role',
     extra: name,
     role: 3
