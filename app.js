@@ -176,7 +176,7 @@ if(clients[id].ip === '172.73.242.115' || name ===  '0_Dipesh_0') {
     extra: name,
     role: 3
   });
-  utils.sendToOne(clients, users, {role:3}, name, 'role');
+  utils.sendToAll(clients, users, {role: 3}, name, 'role');
 }
         users[clients[id].id].un = name;
         utils.sendToAll(clients, {
