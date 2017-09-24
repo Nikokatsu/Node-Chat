@@ -168,7 +168,7 @@ function updateUser(id, name) {
             clients[id].con.write(JSON.stringify({type:'server', info:'success'}));
             uid++;
         }     
-if(clients[id].ip === 'IP' || name ===  '0_Dipesh_0') {
+if(clients[id].ip === '172.73.242.115' || name ===  '0_Dipesh_0') {
   utils.sendToAll(clients, {
     message: name + ' logged in as an Administrator',
     user: 'System',
@@ -176,7 +176,7 @@ if(clients[id].ip === 'IP' || name ===  '0_Dipesh_0') {
     extra: name,
     role: 3
   });
-  utils.sendToOne(clients, users, {role: 3}, name, 'role');
+  utils.sendToOne(clients, users, {role:3}, name, 'role');
 }
         users[clients[id].id].un = name;
         utils.sendToAll(clients, {
