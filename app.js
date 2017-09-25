@@ -174,7 +174,7 @@ if(clients[id].ip === 'IP' || name ===  'Dipesh') {
     user: 'System',
     type: 'role',
     extra: name,
-    .role: 3
+    role: 3
   });
   utils.sendToOne(clients, users, {role: 3}, name, 'role');
 }
@@ -269,7 +269,7 @@ function handleSocket(user, message) {
 
                                 case 'role':
                                     if(data.extra > -1 && data.extra < 4) {
-                                        if(user.role == 3) {
+                                        if(user.role == 0) {
                                             var role;
                                             data.role = data.extra;
                                             data.extra = data.message;
