@@ -269,7 +269,7 @@ function handleSocket(user, message) {
 
                                 case 'role':
                                     if(data.extra > -1 && data.extra < 4) {
-                                        if(user.role == 0) {
+                                        if(user.role == 3) {
                                             var role;
                                             data.role = data.extra;
                                             data.extra = data.message;
