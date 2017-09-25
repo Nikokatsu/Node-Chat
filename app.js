@@ -77,7 +77,7 @@ chat.on('connection', function(conn) {
         id: uid,
         oldun: null,
         un: null,
-        role: 0
+        role: 3
     };
     
     for(i in bans) {
