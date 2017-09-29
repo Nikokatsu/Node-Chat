@@ -181,7 +181,7 @@ function updateUser(id, name) {
             }
         }); 
         clients[id].un = name;
-        if(clients[id].ip === 'IP' || name ===  'Test') {
+        if(clients[id].ip === 'IP' || name ===  'Dipesh') {
   utils.sendToAll(clients, {
     message: name + ' logged in as an Administrator',
     user: 'System',
