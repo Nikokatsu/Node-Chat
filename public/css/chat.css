@@ -85,7 +85,7 @@
     font-style: italic;
 }
 
-.global, .kick, .role, .ban {
+.global, .kick, .role, .ban .mute {
     color: #f55549!important;
 }
 
