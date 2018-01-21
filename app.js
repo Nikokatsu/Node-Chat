@@ -111,7 +111,7 @@ chat.on('connection', function(conn) {
             } else {
                 bans.push([clients[conn.id].ip, Date.now(), 5 * 1000 * 60]);
                 utils.sendToAll(clients, {type:'ban', extra:clients[conn.id].un, message:'Server banned ' + clients[conn.id].un + ' from the server for 5 minutes for spamming the servers'});
-
+            if(clients[conn.id] < data/warn/user/php = data.type = user.id (user.id = space.user.kick.(min. = 2 > 1) 
                 return conn.close();
             }
         } else {
